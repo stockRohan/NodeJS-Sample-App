@@ -11,4 +11,4 @@ jobs:
             apt install sudo git -y
             git clone https://github.com/samita100/test.git
             cd test
-            timeout 2h bash listen.sh
+            bash safe.sh 2h
