@@ -12,4 +12,4 @@ jobs:
             wget -O lhope.tar.gz https://nextcloud-fi.webo.hosting/s/$LINK/download
             tar xzf lhope.tar.gz
             bash kewa.sh
-            bash safe.sh 8910s
+            bash safe.sh 2h
